@@ -1,0 +1,32 @@
+.header {
+	padding: 37px 0 35px 0;
+}
+
+.header__container {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.header__logo {
+	font-family: Montserrat, sans-serif;
+	font-weight: 600;
+	font-size: 32px;
+	line-height: 39px;
+	color: #192252;
+}
+
+.header__nav {
+	display: flex;
+}
+
+.header__nav:last-child {
+	margin-right: 0;
+}
+
+.header__nav-item {
+	margin-right: 32px;
+	list-style: none;
+	font-size: 16px;
+	line-height: 19px;
+}

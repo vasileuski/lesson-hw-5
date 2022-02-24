@@ -1,0 +1,20 @@
+.activity {
+	display: flex;
+	align-items: center;
+	padding: 80px 0 32px 0;
+}
+
+.activity__image-right {
+	margin-left: 126px;
+}
+
+.activity__image-left {
+	margin-right: 126px;
+}
+
+.activity__description {
+	margin-top: 24px;
+	font-weight: 400;
+	max-width: 584px;
+}
+
