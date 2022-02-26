@@ -9,7 +9,9 @@
 	<link rel="stylesheet" href="./css/hero.css">
 	<link rel="stylesheet" href="./css/offer.css">
 	<link rel="stylesheet" href="./css/activity.css">
-	<link rel="stylesheet" href="./css/food.css">
+	<link rel="stylesheet" href="./css/reservation.css">
+	<link rel="stylesheet" href="./css/room-card.css">
+	<link rel="stylesheet" href="./css/button.css">
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Montserrat:wght@600&display=swap" rel="stylesheet">
@@ -70,30 +72,98 @@
 			</div>		
 		</section>
 
-		<section class="activity container">
-			<div class="activity__content">
-				<h2 class="activity__title">
-					Cabin Activities
-				</h2>
-				<p class="activity__description">
-					Don’t worry to get bored easily in our cabin. We have so many cabin activities for you to do it alone or with group. Maybe this is the best chance for you to make new friends or even a lover.
-				</p>
-			</div>	
+		<div class="activity-container container">
+			<section class="activity activity--aligned-right">
+			  <img src="./image/cheers.png" alt="house" class="activity__image" />
+ 
+			  <div class="activity__content">
+				 <h2 class="activity__title">Cabin Activities</h2>
+				 <p class="activity__description">
+					Don’t worry to get bored easily in our cabin. We have so many
+					cabin activities for you to do it alone or with group. Maybe this
+					is the best chance for you to make new friends or even a lover.
+				 </p>
+			  </div>
+			</section>
+ 
+			<section class="activity">
+			  <img src="./image/food.png" alt="house" class="activity__image" />
+ 
+			  <div class="activity__content">
+				 <h2 class="activity__title">100% Organic Food</h2>
+				 <p class="activity__description">
+					We served 100% organic, low process and delicious food. We allow
+					our guest to have breakfast or dinner request.What ever made your
+					taste buds happy.
+				 </p>
+			  </div>
+			</section>
+		</div>
 
-			<img src="./image/cheers.png" alt="house" class="activity__image-right">
+		<section class="reservation container">
+			<div class="reservation__wrapper">
+				<h2 class="reservation__title">Many Rooms to Choose</h2>
+				<p class="reservation__description">
+					There is a room for every needs. We have room for individuals until family size, we also have a cabin for more private experience
+				</p>
+				<button class="reservation__button button">Explore more</button>
+			</div>
+
+			<div class="reservation__cards-container">
+				<div class="room-card reservation__room-card">
+					<img src="./image/single room.png" alt="room" class="room-card__image">
+					<div class="room-card__content">
+						<h2 class="room-card__title">
+							Single Room
+						</h2>
+	
+						<p class="room-card__description">
+							Best for a brave lone wolf who need comfort and quiet quality time, but you still have a chance to meet others.
+						</p>
+	
+						<button class="button button--variant--ghost room-card__button">
+							Learn More <span class="button__right-icon arrow-right"></span>
+						</button>
+					</div>
+				</div>
+
+				<div class="room-card reservation__room-card">
+					<img src="./image/double room.png" alt="double room" class="room-card__image">
+					<div class="room-card__content">
+						<h2 class="room-card__title">
+							Double room
+						</h2>
+	
+						<p class="room-card__description">
+							Best for couple, seek happiness in intimacy without worry of being disturbed. Feel the whole world just for you two
+						</p>
+	
+						<button class="button button--variant--ghost room-card__button">
+							Learn More <span class="button__right-icon arrow-right"></span>
+						</button>
+					</div>
+				</div>
+
+				<div class="room-card reservation__room-card">
+					<img src="./image/cottage.png" alt="room" class="room-card__image">
+					<div class="room-card__content">
+						<h2 class="room-card__title">
+							Cottage
+						</h2>
+	
+						<p class="room-card__description">
+							Best for family or group. One cootage can fit up to 5 people. Made stronger bond with your family or friends
+						</p>
+	
+						<button class="button button--variant--ghost room-card__button">
+							Learn More <span class="button__right-icon arrow-right"></span>
+						</button>
+					</div>
+				</div>
+			</div>
 		</section>
 
-		<section class="food container">
-			<img src="./image/food.png" alt="house" class="food__image-left">
-			<div class="food__content">
-				<h2 class="food__title">
-					100% Organic Food
-				</h2>
-				<p class="food__description">
-					We served 100% organic, low process and delicious food. We allow our guest to have breakfast or dinner request.What ever made your taste buds happy.
-				</p>
-			</div>		
-		</section>
+		
 	</main>
 </body>
 </html>

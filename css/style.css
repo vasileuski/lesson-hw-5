@@ -24,18 +24,16 @@ body {
 	padding: 0 5px;
 }
 
-.button {
-	padding: 14px 16px;
-	background: #0E1734;
-	border-radius: 4px;
-	font-family: inherit;
-	font-weight: 500;
-	font-size: 16px;
-	line-height: 19px;
-	color: #FFFFFF;
-	border: none;
-}
-
 .button:hover, .button:active, .button:focus {
 	opacity: .9;
+}
+
+.arrow-right {
+	display: inline-block;
+	background: url(../image/arrow-right.svg);
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center;
+	width: 20px;
+	height: 20px;
 }
