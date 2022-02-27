@@ -1,0 +1,83 @@
+.functions {
+	display: flex;
+	justify-content: space-between;
+	padding-top: 80px;
+	padding-bottom: 80px;
+}
+
+.functions__info {
+	align-self: center;
+}
+
+.functions__intro {
+	font-size: 16px;
+	margin-bottom: 12px;
+	color: #424F7B;
+}
+
+.functions__title {
+	margin-bottom: 24px;
+}
+
+.functions__about {
+	margin-bottom: 32px;
+	max-width: 384px;
+}
+
+.functions__button {
+	margin-right: 24px;
+	padding: 16px 32px;
+}
+
+.functions__toogle {
+	max-width: 588px;
+	padding: 34px;
+	margin-bottom: 24px;
+	list-style-type: none;
+	border-radius: 4px;
+	box-shadow: 0 0 10px rgba(180, 180, 180, 0.5);
+   padding: 10px;
+}
+
+.functions__toogle > h4,
+.functions__toogle> span,
+.functions__toogle > p {
+	padding: 34px;
+	color: #424F7B;
+}
+
+.functions__toogle:last-child {
+	margin-bottom: 0;
+}
+.functions__toogle-about {
+	padding-top: 24px;
+	font-family: Inter, sans-serif;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 150%;
+	color: #848FAC;
+}
+
+.button__down-icon {
+	display: inline-block;
+	background: url(../image/arrow\ down.svg);
+	padding: 14px;
+	background-color: #FFECE2;
+	border-radius: 100px;
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center;
+	vertical-align: middle;
+}
+
+.button__up-icon {
+	display: inline-block;
+	background: url(../image/Arrow\ up.svg);
+	padding: 14px;
+	background-color: #FF620A;
+	border-radius: 100px;
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center;
+	vertical-align: middle;
+}

@@ -7,11 +7,12 @@
 	<link rel="stylesheet" href="./css/style.css">
 	<link rel="stylesheet" href="./css/header.css">
 	<link rel="stylesheet" href="./css/hero.css">
-	<link rel="stylesheet" href="./css/offer.css">
+	<link rel="stylesheet" href="./css/about-us.css">
 	<link rel="stylesheet" href="./css/activity.css">
 	<link rel="stylesheet" href="./css/reservation.css">
 	<link rel="stylesheet" href="./css/room-card.css">
 	<link rel="stylesheet" href="./css/button.css">
+	<link rel="stylesheet" href="./css/functions.css">
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Montserrat:wght@600&display=swap" rel="stylesheet">
@@ -53,31 +54,32 @@
 			<img src="./image/House.png" alt="house" class="hero__image">
 		</section>
 
-		<section class="offer container">
-			<img src="./image/house2.png" alt="house" class="offer__image">
-
-			<div class="offer__content">
-				<h2 class="offer__title">
-					Cozy and Down to Earth Cootage Hotel in Norway.
-				</h2>
-				<p class="offer__description">
-					Our Cootage Hotel is an intimate hideway concieved for dicerning travelers. It faces directly the unique and spectacular panorama of the Hallerbos Jungle.
-				</p>
-				<p class="offer__description-2">
-					Cootels extends along a private, quiet, and beautiful nature. Stay away from crowd and enjoy the cozy and beauty with us.
-				</p>
-				<button class="offer__button button">
-					Learn More
-				</button>
-			</div>		
-		</section>
+		<section class="about-us container">
+			<img src="./image/house2.png" alt="house" class="about-us__image" />
+ 
+			<div class="about-us__content">
+			  <h3 class="about-us__title">
+				 Cozy and Down to Earth Cootage Hotel in Norway.
+			  </h3>
+			  <p class="about-us__description">
+				 Our Cootage Hotel is an intimate hideway concieved for dicerning
+				 travelers. It faces directly the unique and spectacular panorama of
+				 the Hallerbos Jungle.
+			  </p>
+			  <p class="about-us__description">
+				 Cootels extends along a private, quiet, and beautiful nature. Stay
+				 away from crowd and enjoy the cozy and beauty with us.
+			  </p>
+			  <button class="about-us__button button">Learn More</button>
+			</div>
+		 </section>
 
 		<div class="activity-container container">
 			<section class="activity activity--aligned-right">
 			  <img src="./image/cheers.png" alt="house" class="activity__image" />
  
 			  <div class="activity__content">
-				 <h2 class="activity__title">Cabin Activities</h2>
+				 <h3 class="activity__title">Cabin Activities</h3>
 				 <p class="activity__description">
 					Don’t worry to get bored easily in our cabin. We have so many
 					cabin activities for you to do it alone or with group. Maybe this
@@ -90,7 +92,7 @@
 			  <img src="./image/food.png" alt="house" class="activity__image" />
  
 			  <div class="activity__content">
-				 <h2 class="activity__title">100% Organic Food</h2>
+				 <h3 class="activity__title">100% Organic Food</h3>
 				 <p class="activity__description">
 					We served 100% organic, low process and delicious food. We allow
 					our guest to have breakfast or dinner request.What ever made your
@@ -102,7 +104,7 @@
 
 		<section class="reservation container">
 			<div class="reservation__wrapper">
-				<h2 class="reservation__title">Many Rooms to Choose</h2>
+				<h3 class="reservation__title">Many Rooms to Choose</h3>
 				<p class="reservation__description">
 					There is a room for every needs. We have room for individuals until family size, we also have a cabin for more private experience
 				</p>
@@ -113,9 +115,9 @@
 				<div class="room-card reservation__room-card">
 					<img src="./image/single room.png" alt="room" class="room-card__image">
 					<div class="room-card__content">
-						<h2 class="room-card__title">
+						<h3 class="room-card__title">
 							Single Room
-						</h2>
+						</h3>
 	
 						<p class="room-card__description">
 							Best for a brave lone wolf who need comfort and quiet quality time, but you still have a chance to meet others.
@@ -130,9 +132,9 @@
 				<div class="room-card reservation__room-card">
 					<img src="./image/double room.png" alt="double room" class="room-card__image">
 					<div class="room-card__content">
-						<h2 class="room-card__title">
+						<h3 class="room-card__title">
 							Double room
-						</h2>
+						</h3>
 	
 						<p class="room-card__description">
 							Best for couple, seek happiness in intimacy without worry of being disturbed. Feel the whole world just for you two
@@ -147,9 +149,9 @@
 				<div class="room-card reservation__room-card">
 					<img src="./image/cottage.png" alt="room" class="room-card__image">
 					<div class="room-card__content">
-						<h2 class="room-card__title">
+		 				<h3 class="room-card__title">
 							Cottage
-						</h2>
+						</h3>
 	
 						<p class="room-card__description">
 							Best for family or group. One cootage can fit up to 5 people. Made stronger bond with your family or friends
@@ -163,7 +165,36 @@
 			</div>
 		</section>
 
-		
+		<section class="functions container">
+			<div class="functions__info">
+				<p class="functions__intro">
+					Start your journey!
+				</p>
+				<h3 class="functions__title">
+					How to Get My Room?
+				</h3>
+				<p class="functions__about">
+					You can contact us by phone or email us. Easily tap the contact button below and it will take you to our contact point
+				</p>
+				<button class="functions__button button">
+					Contact us
+				</button>
+				<button class="functions__button-ghost button button--variant--ghost">
+					Explore more room
+				</button>
+			</div>
+
+			<div class="functions__toogles">
+				<ul>
+					<li class="functions__toogle"><h4>1. Choose a room and date <span class="button__down-icon"></span></h4></li>
+					<li class="functions__toogle ">
+						<h4>2. Check for room availability<span class="button__up-icon"></span>
+						<p class="functions__toogle-about">Contact us via phone or email, ask for availability of you choice of room. We might offer you something exciting.</p></h4>
+					</li>
+					<li class="functions__toogle"><h4>3. Enjoy your room<span class="button__down-icon"></span></h4></li>
+				</ul>
+			</div>
+		</section>
 	</main>
 </body>
 </html>

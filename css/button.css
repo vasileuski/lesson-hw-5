@@ -25,3 +25,17 @@
 .button:hover, .button:active, .button:focus {
 	opacity: .9;
 }
+
+.button__down-icon {
+	display: inline-block;
+	background: url(../image/Iconly/Light/Arrow\ -\ Down\ 2.svg);
+	padding: 16px;
+	background-color: #FFECE2;
+	border-radius: 100px;
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center;
+	width: 24px;
+	height: 24px;
+	vertical-align: middle;
+}
