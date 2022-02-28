@@ -7,6 +7,10 @@
 	display: flex;
 }
 
+.footer > a {
+	
+}
+
 .footer-title {
 	margin-right: auto;
 }
@@ -18,6 +22,7 @@
 	color: #fff;
 	margin-bottom: 18px;
 }
+
 .footer-title__about {
 	max-width: 188px;
 	margin-bottom: 42px;
