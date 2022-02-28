@@ -1,35 +1,35 @@
-.functions {
+.options {
 	display: flex;
 	justify-content: space-between;
 	padding-top: 80px;
 	padding-bottom: 80px;
 }
 
-.functions__info {
+.options__info {
 	align-self: center;
 }
 
-.functions__intro {
+.options__intro {
 	font-size: 16px;
 	margin-bottom: 12px;
 	color: #424F7B;
 }
 
-.functions__title {
+.options__title {
 	margin-bottom: 24px;
 }
 
-.functions__about {
+.options__about {
 	margin-bottom: 32px;
 	max-width: 384px;
 }
 
-.functions__button {
+.options__button {
 	margin-right: 24px;
 	padding: 16px 32px;
 }
 
-.functions__toogle {
+.options__toogle {
 	max-width: 588px;
 	padding: 34px;
 	margin-bottom: 24px;
@@ -39,17 +39,17 @@
    padding: 10px;
 }
 
-.functions__toogle > h4,
-.functions__toogle> span,
-.functions__toogle > p {
+.options__toogle > h4,
+.options__toogle> span,
+.options__toogle > p {
 	padding: 34px;
 	color: #424F7B;
 }
 
-.functions__toogle:last-child {
+.options__toogle:last-child {
 	margin-bottom: 0;
 }
-.functions__toogle-about {
+.options__toogle-about {
 	padding-top: 24px;
 	font-family: Inter, sans-serif;
 	font-weight: 400;

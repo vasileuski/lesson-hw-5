@@ -32,6 +32,10 @@ body {
 	padding: 0 5px;
 }
 
+ul {
+	list-style-type: none;
+}
+
 .button:hover, .button:active, .button:focus {
 	opacity: .9;
 }
