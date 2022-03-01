@@ -4,7 +4,7 @@
 	box-sizing: border-box;
 }
 
-h1, h2, h3, h4 {
+h1, h2, h3, h4, h5, h6 {
 	font-family: Montserrat, sans-serif;
 	font-size: 48px;
 	line-height: 150%;
@@ -34,10 +34,6 @@ body {
 
 ul {
 	list-style-type: none;
-}
-
-.button:hover, .button:active, .button:focus {
-	opacity: .9;
 }
 
 .arrow-right {
